@@ -384,6 +384,10 @@ img{
 @media screen and (max-width: 320px) {
   .home__img {
     width: 230px;
+    
+  }
+  .home__title{
+    font-size: 80px;
   }
 }
 
@@ -488,7 +492,7 @@ img{
     }
     .home__img {
         width: 550px;
-        right: 20%;
+        left: 20%;
     }
 }
 
