@@ -26,7 +26,7 @@
                         <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link">Projects</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                     </ul>
                 </div>
@@ -63,11 +63,11 @@
                     <div>
                         <h2 class="about__subtitle">I'am Shri Kowshikk Raja V</h2>
                         <span class="about__profession">Junior Web designer</span>
-                        <p class="about__text"></p>
+                        <p class="about__text">To become a successful expert in Information Technology by leveraging my technical knowledge and skills to achieve personal and professional growth while contributing to the success of the organization.</p>
 
                         <div class="about__social">
                             <a href="https://www.linkedin.com/in/shrikowshikkraja03" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
-                            <a href="#" class="about__social-icon"><i class='bx bxl-github' ></i></a>
+                            <a href="https://github.com/Kowshikk03" class="about__social-icon"><i class='bx bxl-github' ></i></a>
                             <a href="https://www.instagram.com/_.kowshikk._03?igsh=ZmltMHB5amQyMmZv" class="about__social-icon"><i class='bx bxl-instagram' ></i></a>
                         </div>
                     </div>
@@ -81,18 +81,14 @@
                 <div class="skills__container bd-grid">
                     <div class="skills__box">
                         <h3 class="skills__subtitle">Frontend</h3>
-                        <span class="skills__name">Html</span>
-                        <span class="skills__name">Css</span>
+                        <span class="skills__name">HTML</span>
+                        <span class="skills__name">CSS</span>
                         <span class="skills__name">Bootstrap</span>
                         <span class="skills__name">JavaScript</span>
                         <span class="skills__name">React</span>
 
                         <h3 class="skills__subtitle">Backend</h3>
-                        <span class="skills__name">PHP</span>
                         <span class="skills__name">Python</span>
-                        
-                        <h3 class="skills__subtitle">Database</h3>
-                        <span class="skills__name">Mongo DB</span>
 
                         <h3 class="skills__subtitle">Data Analytics</h3>
                         <span class="skills__name">Excel</span>
@@ -110,48 +106,50 @@
                 </div>
             </section>
 
-            <!--===== PORTFOLIO =====-->
+            <!--===== PROJECTS =====-->
             <section class="portfolio section" id="portfolio">
                 <h2 class="section-title">Projects</h2>
 
                 <div class="portfolio__container bd-grid">
                     <div class="portfolio__img">
                         <img src="image/project1.png" alt="image">
+                            <h3 class="project-name">Calculator</h3>
+
+                        <div class="portfolio__link">
+                            <a href=# class="portfolio__link-name">View details</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="" alt="image">
+                        <h3 class="project-name"></h3>
 
                         <div class="portfolio__link">
                             <a href="#" class="portfolio__link-name">View details</a>
                         </div>
                     </div>
                     <div class="portfolio__img">
-                        <img src="assets/img/work2.jpg" alt="">
+                        <img src="assets/img/work3.jpg" alt="image">
 
                         <div class="portfolio__link">
                             <a href="#" class="portfolio__link-name">View details</a>
                         </div>
                     </div>
                     <div class="portfolio__img">
-                        <img src="assets/img/work3.jpg" alt="">
+                        <img src="assets/img/work4.jpg" alt="image">
 
                         <div class="portfolio__link">
                             <a href="#" class="portfolio__link-name">View details</a>
                         </div>
                     </div>
                     <div class="portfolio__img">
-                        <img src="assets/img/work4.jpg" alt="">
+                        <img src="assets/img/work5.jpg" alt="image">
 
                         <div class="portfolio__link">
                             <a href="#" class="portfolio__link-name">View details</a>
                         </div>
                     </div>
                     <div class="portfolio__img">
-                        <img src="assets/img/work5.jpg" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="#" class="portfolio__link-name">View details</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <img src="assets/img/work6.jpg" alt="">
+                        <img src="assets/img/work6.jpg" alt="image">
 
                         <div class="portfolio__link">
                             <a href="#" class="portfolio__link-name">View details</a>
@@ -179,15 +177,18 @@
                         <p>Tamil Nadu.</p></span>
                     </div>
 
-                    <form action="" class="contact__form">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="contact__form">
+                            <input type="hidden" name="access_key" value="cf547dd4-7927-4f01-a48d-bc49101da7fa">
+                        
                         <div class="contact__inputs">
-                            <input type="text" placeholder="Name" class="contact__input">
-                            <input type="mail" placeholder="Email" class="contact__input">
+                            <input type="text" name="name" placeholder="Name" class="contact__input" required>
+                            <input type="email" name="email" placeholder="Email" class="contact__input" required>
                         </div>
 
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input" placeholder="Message..."></textarea>
+                        <textarea name="message" id="" cols="0" rows="10" class="contact__input" placeholder="Message..."></textarea>
 
-                        <input type="submit" value="Send"  class="contact__button"> 
+                        <input type="reset" value="Reset"  class="contact__button"> 
+                        <input type="submit" value="Submit"  class="contact__button">
                     </form>
                 </div>
             </section>
@@ -217,7 +218,7 @@
                     <a href="https://www.facebook.com/profile.php?id=100095761381920&mibextid=ZbWKwL" class="footer__social"><i class='bx bxl-facebook' ></i></a>
                     <a href="https://www.instagram.com/_.kowshikk._03?igsh=ZmltMHB5amQyMmZv" class="footer__social"><i class='bx bxl-instagram' ></i></a>
                     <a href="https://x.com/kowshikk_03?t=oBBHYxwJAN-D2Vslq1HB9w&s=08" class="footer__social"><i class='bx bxl-twitter' ></i></a>
-                    <a href="#" class="footer__social"><i class='bx bxl-github' ></i></a>
+                    <a href="https://github.com/Kowshikk03" class="footer__social"><i class='bx bxl-github' ></i></a>
                     <a href="https://www.linkedin.com/in/shrikowshikkraja03" class="footer__social"><i class='bx bxl-linkedin' ></i></a>
                 </div>
 

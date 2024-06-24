@@ -275,7 +275,7 @@ img{
     border-radius: .5rem;
 }
 
-/* ===== PORTFOLIO =====*/
+/* ===== PROJECTS =====*/
 .portfolio{
     background-color: var(--white-color);
 }
@@ -310,6 +310,9 @@ img{
 .portfolio__link-name{
     color: var(--dark-color);
 }
+.project-name{
+    text-align: center;
+}
 
 /* ===== CONTACT =====*/
 .contact__container{
@@ -338,11 +341,12 @@ img{
     border-radius: .5rem;
 }
 .contact__button{
-    display: block;
+    display: inline;
     background-color: var(--first-color);
     color: var(--white-color);
     padding: .75rem 2.5rem;
     margin-left: auto;
+    margin-right: 16%;
     border-radius: .5rem;
     border: none;
     outline: none;
